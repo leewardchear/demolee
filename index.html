@@ -26,8 +26,7 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('./images/angkor.jpg');
-  min-height: 35%;
-  background-position: 0px -200px;
+  min-height: 50%;
 }
 
 /* Second image (Portfolio) */
@@ -54,6 +53,10 @@ body, html {
 }
  .namecenter, .w3-bar-item {
    color: #fff
+  }
+
+  .w777 {
+    color: #777
   }
 
 
@@ -169,7 +172,7 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white" + " w777";
     } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
     }
