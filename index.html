@@ -38,7 +38,7 @@ body, html {
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url("./images/angkor3.jpg");
-  min-height: 200px;
+  min-height: 2000px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -62,6 +62,35 @@ body, html {
   .whitew {
     color: #fff
   }
+
+  .asd {
+	background: rgb(0,0,0,0.5);
+    backdrop-filter: blur(20px);
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.l_company {
+font-size: 25px;
+    display: block;
+    padding: 10px;
+    color: #666;
+    background-color: #dedede;
+
+}
+.l_title {
+background-color: #aaa;
+padding: 10px;
+    display: flex;
+    justify-content: space-between;
+font-size: 20px;
+ font-style: italic;
+}
+.extras {
+  display: inline-block;
+  color: #333;
+}
 
 </style>
 </head>
@@ -126,7 +155,7 @@ body, html {
   
   <div class="w3-content w3-container w3-padding-64" id="portfolio">
     <p>You can also visit my github repo at <a href="https://github.com/leewardchear/chearingyou">https://github.com/leewardchear/chearingyou</a> to see another react native project I've worked on.</p>
-
+</div>
 <div>
 
 <!-- Modal for full size images on click-->
@@ -141,10 +170,110 @@ body, html {
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+       <span class="w3-xxlarge w3-text-white w3-wide"> SKILLS</span>
+     <div class="asd">
+
+<ul>
+  <li>Java</li>
+  <li>Kotlin</li>
+  <li>Python</li>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>AJAX</li>
+  <li>Node.js</li>
+  <li>JQuery</li>
+  <li>Socket.IO</li>
+  <li>Unity</li>
+  <li>Cocos2d</li>
+  <li>React Native</li>
+  <li>MySQL</li>
+  <li>Tensorflow.js</li>
+</ul>
+     </div>
+     <span class="w3-xxlarge w3-text-white w3-wide"> EXPERIENCE</span>
+     <div class="l_company" style="display: flex; justify-content: space-between;">
+         <div ><i class="fa fa-building-o"></i> Assure Global Group INC</div>
+                 <div ><i class="fa fa-map-marker" aria-hidden="true"></i> Toronto, ON </div>
+</div>
+    <div class="l_title">
+    	<div class="extras"><i class="fa fa-briefcase" aria-hidden="true"></i> Lead Sr. Android Developer </div>
+        <div class="extras"><i class="fa fa-calendar" aria-hidden="true"></i> 2018 to 2022</div>
+    </div>
+     <div class="asd">
+
+    
+    <ul>
+      <li>Built suite of applications using Android SDK IDE using Java and later transition to Kotlin</li>
+      <li>Architected large applications using best OOP practices</li>
+      <li>Used asynchronous functions to achieve most fluid user experiences</li>
+      <li>Deployed push notifications to the apps using FCM and Pushy</li>
+      <li>Stored data on mobile devices using SQLite and created simple queries to retrieve data of large lists efficiently</li>
+      <li>Created a number of S3 buckets on Amazon Web Services to host android externally imported modules through gradle</li>
+      <li>Used encryption techniques, including AES 256 CBC and Signal Protocol Encryption, to securely transfer and store information</li>
+      <li>Made HTTP calls to the server using Retrofit 2.0 to send and receive data with JSON</li>
+      <li>Used websockets created on AWS to stream audio from device to device (voice calling) using secured Signal protocol encryption</li>
+      <li>Worked in an agile environment using Asana Board to control workflow</li>
+    </ul>
+  </div>
+       <div class="l_company" style="display: flex; justify-content: space-between;">
+         <div ><i class="fa fa-building-o"></i> CompletelyManaged INC</div>
+                 <div ><i class="fa fa-map-marker" aria-hidden="true"></i> Newmarket, ON </div>
+</div>
+    <div class="l_title">
+    	<div class="extras"><i class="fa fa-briefcase" aria-hidden="true"></i> Lead Software/Hardware Engineer </div>
+        <div class="extras"><i class="fa fa-calendar" aria-hidden="true"></i> 2016 to 2028</div>
+    </div>
+  <div class="asd">
+    <ul>
+      <li>Built web front end interface in AngularJS and backend server in NodeJS</li>
+      <li>Wrote Python for linux to program LCD Displays, LEDs and switches</li>
+      <li>Stored data from network scans into MySQL database</li>
+      <li>Used Nmap and Openvas to scan networks and detect security vulnerabilities</li>
+      <li>Encrypted information scanned using AES 256 CBC and stored on the cloud securely</li>
+      <li>Created a number of S3 buckets on Amazon Web Services to host android externally imported modules through gradle</li>
+      <li>Used encryption techniques, including AES 256 CBC and Signal Protocol Encryption, to securely transfer and store information</li>
+      <li>Made HTTP calls to the server using Retrofit 2.0 to send and receive data with JSON</li>
+      <li>Used websockets created on AWS to stream audio from device to device (voice calling) using secured Signal protocol encryption</li>
+      <li>Worked in an agile environment using Trello Board to control workflow</li>
+    </ul>
+  </div>
+  
+         <div class="l_company" style="display: flex; justify-content: space-between;">
+         <div ><i class="fa fa-building-o"></i> Bizzone INC</div>
+                 <div ><i class="fa fa-map-marker" aria-hidden="true"></i> Gormley, ON </div>
+</div>
+    <div class="l_title">
+    	<div class="extras"><i class="fa fa-briefcase" aria-hidden="true"></i> Full Stack PHP/MySQL Programmer</div>
+        <div class="extras"><i class="fa fa-calendar" aria-hidden="true"></i> 2012 to 2015</div>
+    </div>
+  <div class="asd">
+
+    <ul>
+      <li>Web Application Developer – Built a secure back end and front end from concepts</li>
+      <li>Graphic/Layout Design – Designed a clean and simple interface for users</li>
+      <li>Quality Assurance – Verify pages appear and function correctly</li>
+      <li>Agile Work Environment – Participate in daily scrums efficiently completing projects</li>
+    </ul>
+  </div>
+  
+           <div class="l_company" style="display: flex; justify-content: space-between;">
+         <div ><i class="fa fa-building-o"></i> Personal Projec</div>
+                 <div ><i class="fa fa-map-marker" aria-hidden="true"></i> Keswick, ON </div>
+</div>
+    <div class="l_title">
+    	<div class="extras"><i class="fa fa-briefcase" aria-hidden="true"></i> React Native</div>
+        <div class="extras"><i class="fa fa-calendar" aria-hidden="true"></i> 2022</div>
+    </div>
+  <div class="asd">
+
+    <ul>
+      <li>Developed a mobile application using React Native that allows users to send anonymous messages to each other</li>
+      <li>Designed and implemented the front-end UI and UX using React Native components and styles</li>
+      <li>Managed project using Git for version control</li>
+    </ul>
+  </div>
   </div>
 </div>
-
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
 
